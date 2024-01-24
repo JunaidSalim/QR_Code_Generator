@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <center>
+        <h2>QR Code Generator</h2>
+        <img src="" alt="" id="qr">
+        <h4>Enter Text</h4>
+        <textarea placeholder="Enter Your Text" name="df" id="text" cols="30" rows="10"></textarea>
+        <div id="dimensions">
+        <h4>Enter Dimensions</h4>
+        <label for="height">Enter Height</label>
+        <input type="number" placeholder="Enter Height in Pixels" id="height">
+        <label for="Width">Enter Width</label>
+        <input type="number" placeholder="Enter Width in Pixels" id="width">
+    </div>
+        <input type="submit" value="Generate" onclick="Generate()">
+    </center>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
